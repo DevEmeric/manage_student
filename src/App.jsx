@@ -69,16 +69,3 @@ const App = () => {
 };
 
 export default App;
-
-{
-  /* <Col className={(formToggle || modifyFormToggle) ? 'toggledFormCol' : 'nonToggledFormCol'} xs={3}>
-          <NewForm
-            alumni={students}
-            submit={setStudents}
-            generic={modifyFormToggle ? modifyStudent : newStudent}
-            handleStudent={modifyFormToggle ? setModifyStudent : setStudent}
-            insertStudent={modifyFormToggle ? insertModifyStudent : insertNewStudent}
-            handleForm={modifyFormToggle ? showModifyForm : showForm}
-          />
-        </Col> */
-}
